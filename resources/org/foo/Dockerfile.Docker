@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+
+USER root
+
+RUN apt update && \
+    apt install docker.io git -y
